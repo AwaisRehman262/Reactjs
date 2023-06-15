@@ -18,8 +18,7 @@ function Todos() {
       let sliced_todos = my_todos.slice(1)
       console.log(sliced_todos)
     }
-    console.log(my_todos)
-  }
+  
 
   function delete_handler(id) {
     let temp_todos = my_todos.filter((todo) => todo.id !== id)
